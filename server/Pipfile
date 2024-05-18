@@ -7,6 +7,13 @@ name = "pypi"
 requests = "*"
 python-dotenv = "*"
 yfinance = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-swagger = "*"
+flask-cors = "*"
+flask-jwt-extended = "*"
+flask-bcrypt = "*"
 
 [dev-packages]
 
@@ -14,4 +21,4 @@ yfinance = "*"
 python_version = "3.11"
 
 [scripts]
-start = "python main.py"
+start = "flask run"
