@@ -1,4 +1,4 @@
-from stock_fetcher import fetch_current_ticker_price
+from api.stock_fetcher import fetch_current_ticker_price
 
 
 def main():
