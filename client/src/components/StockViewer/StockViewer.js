@@ -21,6 +21,12 @@ export const StockViewer = () => {
     }
   };
 
+  const resetSearch = () => {
+    setTicker("");
+    setStockPrice(null);
+    setError(null);
+  };
+
   return (
     <section className="stock-container">
       <div className="stock-content">
@@ -36,12 +42,15 @@ export const StockViewer = () => {
         <button type="button" onClick={fetchStockPrice}>
           Current Ticker Price
         </button>
+        <button type="button" onClick={resetSearch} className="reset-button">
+          Reset
+        </button>
+        {error && <p>{error}</p>}
         {stockPrice !== null && (
           <p>
             The current price of {ticker} is ${stockPrice.toFixed(2)}
           </p>
         )}
-        {error && <p>{error}</p>}
       </div>
     </section>
   );
