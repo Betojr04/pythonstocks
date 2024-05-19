@@ -1,0 +1,21 @@
+.stock-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stock-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stock-content label {
+    margin-bottom: 8px;
+}
+
+.stock-content input {
+    margin-bottom: 8px;
+}

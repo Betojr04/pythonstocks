@@ -1,0 +1,22 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.logo-container img {
+    height: 100%;
+    width: auto;
+}
+
+.menu {
+    margin-right: 30px;
+}
