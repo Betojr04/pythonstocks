@@ -17,11 +17,10 @@
         
 #         if getting_more_ticker_prices.lower() != "yes":
 #             print("Okay, Goodbye!")
-#             break
+#             # break
             
             
-# if __name__ == "__main__":
-#     main()
+
     
     
     

@@ -22,3 +22,6 @@ python_version = "3.11"
 
 [scripts]
 start = "flask run"
+upgrade = "flask db upgrade"
+migrate = "flask db migrate"
+downgrade = "flask db downgrade"
