@@ -12,7 +12,7 @@ export const Router = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <Nav />
         <Routes>
-          <Route path="/app" element={<App />} />
+          <Route path="/stock-price" element={<App />} />
           <Route path="/" element={<LandingPage />} />
         </Routes>
         <Footer />
